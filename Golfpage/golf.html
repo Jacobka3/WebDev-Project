@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf is My Favorite</title>
+    <link rel="stylesheet" href="golf.css">
+</head>
+<body>
+    <div class="page-container">
+        <a class="toResume" href="../index.html">Back to Resume</a>
+        <a class="toGame" href="../likeGames.html">Wanna play a game?</a>
+        
+        <h1 class="header" id="top">Golf is my favorite sport!</h1>
+        
+        <div class="content-section">
+            <p>There is nothing better than golf! It's the best sport and is super fun to play.</p>
+            <p>Don't believe me? Watch <a href="#videoSection" class="videoLink">the video at the bottom of the page</a> for some exciting highlights from Bryson DeChambeau.</p>
+        </div>
+        
+        <!-- Reasons + Image Section -->
+        <div class="content-section reasons-section">
+            <div class="reasons-container">
+                <div class="list">
+                    <ol>Reasons why you should play golf
+                        <ul> 1.)
+                            <li>It is extremely fun with friends</li>
+                            <li>Useful for making business deals</li>
+                            <li>You can play it your entire life</li>
+                            <li>You can make a lot of money</li>
+                        </ul>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="golf-image-container">
+                <img src="../assets/Masters-Main-Picture.jpg" 
+                     alt="Masters Tournament" 
+                     class="golf-image">
+                <p class="image-caption">The famous Masters Tournament at Augusta National</p>
+            </div>
+        </div>
+        
+        <!-- Tableau Section -->
+        <div class="content-section tableau-section">
+            <div class="tableau-container">
+                <div class='tableauPlaceholder' id='viz1748978971392' style='position: relative'>
+                    <noscript>
+                        <a href='#'>
+                            <img alt='Avg Par or Better per hole played ' src='https://public.tableau.com/static/images/Av/AvgParorBetterperholeplayed/Sheet1/1_rss.png' style='border: none' />
+                        </a>
+                    </noscript>
+                    <object class='tableauViz' style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                        <param name='embed_code_version' value='3' />
+                        <param name='site_root' value='' />
+                        <param name='name' value='AvgParorBetterperholeplayed/Sheet1' />
+                        <param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image' value='https://public.tableau.com/static/images/Av/AvgParorBetterperholeplayed/Sheet1/1.png' />
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='en-US' />
+                        <param name='filter' value='publish=yes' />
+                    </object>
+                </div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1748978971392');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';
+                    vizElement.style.height='500px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+            </div>
+            
+            <div class="tableau-explanation">
+                <h3>Understanding Golf Performance Data</h3>
+                <p>This visualization shows professional golfers' performance metrics:</p>
+                <ul>
+                    <li><strong>Par-3 Holes:</strong> 2.9 stroke average</li>
+                    <li><strong>Par-4 Holes:</strong> 3.95 stroke average</li>
+                    <li><strong>Par-5 Holes:</strong> 4.7 stroke average</li>
+                </ul>
+                <p>Pros maintain consistency across all hole types, with particular advantage on par-5s where distance matters most.</p>
+            </div>
+        </div>
+        
+        <!-- Top Players List -->
+        <div class="top-players-list">
+            <h3>Top 3 PGA Players</h3>
+            <ol>
+                <li><strong>Scottie Scheffler</strong> - World #1 with incredible consistency</li>
+                <li><strong>Rory McIlroy</strong> - Powerhouse with multiple major wins</li>
+                <li><strong>Jon Rahm</strong> - Exceptional all-around game</li>
+            </ol>
+        </div>
+        
+        <!-- Video Section -->
+        <div class="video-container">
+            <iframe
+                id="videoSection"
+                width="1000"
+                height="500" 
+                src="https://www.youtube.com/embed/Y3sFC5FORf8?start=561" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <a href="#top" class="backtotop">Back to Top</a>
+        </div>
+    </div>
+</body>
+</html>
