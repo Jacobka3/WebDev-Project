@@ -33,6 +33,7 @@
 
 .videoLink {
     color: black;
+    text-decoration: underline;
 }
 
 .videoLink:hover {
